@@ -1,8 +1,17 @@
 package ticket;
 
 public class Bag {
+    public Bag(long amount) {
+        this(amount, null);
+    }
+
+    public Bag(Long amount, Invitation invitation) {
+        this.amount = amount;
+        this.invitation = invitation;
+    }
+
     private Long amount;
-    private Invitation invitation;
+    private final Invitation invitation;
     private Ticket ticket;
 
     public boolean hasInvitaiton() {
@@ -24,4 +33,5 @@ public class Bag {
     public void setTicket(Ticket ticket) {
         this.ticket = ticket;
     }
+
 }
