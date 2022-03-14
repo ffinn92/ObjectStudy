@@ -12,4 +12,16 @@ public class Bag {
     public boolean hasTicket() {
         return ticket != null;
     }
+
+    public void plusAmount(Long amount) {
+        this.amount += amount;
+    }
+
+    public void minusAmount(Long amount) {
+        this.amount -= amount;
+    }
+
+    public void setTicket(Ticket ticket) {
+        this.ticket = ticket;
+    }
 }
