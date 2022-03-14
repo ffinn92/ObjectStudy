@@ -8,4 +8,8 @@ public class Bag {
     public boolean hasInvitaiton() {
         return invitation != null;
     }
+
+    public boolean hasTicket() {
+        return ticket != null;
+    }
 }
