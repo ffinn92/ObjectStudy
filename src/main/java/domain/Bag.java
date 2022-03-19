@@ -1,4 +1,4 @@
-package ticket;
+package domain;
 
 public class Bag {
     public Bag(long amount) {
