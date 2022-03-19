@@ -1,4 +1,4 @@
-package ticket;
+package domain;
 
 import java.time.LocalDateTime;
 
