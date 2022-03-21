@@ -12,8 +12,8 @@ public class TicketOffice {
         this.tickets = tickets;
     }
 
-    public List<Ticket> getTickets() {
-        return tickets;
+    public Ticket getTicket() {
+        return tickets.remove(0);
     }
 
     public void plusAmount(Long amount) {
